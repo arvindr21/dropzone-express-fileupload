@@ -1,0 +1,17 @@
+{
+  "name": "my-application",
+  "version": "0.0.1",
+  "description": "An Awesome Express App",
+  "private": true,
+  "dependencies": {
+    "jquery": "latest",
+    "dropzone": "https://github.com/enyo/dropzone.git#~3.10.2"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

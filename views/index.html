@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Dropzone Express.js File upload</title>
+
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  <link rel="stylesheet" type="text/css" href="libs/dropzone/downloads/css/dropzone.css">
+  <script type="text/javascript" src="libs/jquery/dist/jquery.min.js"></script>
+
+  <script type="text/javascript" src="libs/dropzone/downloads/dropzone.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+
+</head>
+
+<body>
+  <h1>Dropzone.js and Express.js File uploader</h1>
+  <hr/>
+  <div id="simpleUpload">
+
+   <!-- http://css-tricks.com/css3-progress-bars/ -->
+    <div class="meter">
+      <span class="roller"></span>
+    </div>
+
+    <div id="dropzone">
+      <form action="/upload" class="dropzone" id="my-dropzone">
+      </form>
+    </div>
+    
+    <!-- Also checkout BS example : http://www.dropzonejs.com/bootstrap.html -->
+
+  </div>
+  <br/>
+  <hr/>
+  <br/>
+  <p class="footer">By <a href="http://thejackalofjavascript.com" target="_blank">The Jackal of Javascript</a>
+    <br/>
+    <a href="http://thejackalofjavascript.com" target="_blank">Tutorial</a>
+  </p>
+
+</body>
+
+</html>

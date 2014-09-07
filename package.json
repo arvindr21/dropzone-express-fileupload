@@ -1,0 +1,29 @@
+{
+  "name": "dropzone-express-fileupload",
+  "subdomain": "dropzone-express-fileupload",
+  "scripts": {
+    "start": "node bin/www"
+  },
+  "version": "0.1.0-1",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "devDependencies": {
+    "gulp": "latest",
+    "bower": "latest",
+    "gulp-nodemon": "latest",
+    "gulp-watch": "~0.6.4",
+    "gulp-jshint": "latest",
+    "gulp-livereload": "^1.5.0"
+  },
+  "dependencies": {
+    "blueimp-file-upload-expressjs": "^0.2.10",
+    "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "debug": "~0.7.4",
+    "ejs": "~0.8.5",
+    "express": "~4.0.0",
+    "morgan": "~1.0.0",
+    "static-favicon": "~1.0.0"
+  }
+}
